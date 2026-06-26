@@ -7,6 +7,9 @@
 [![Gemini](https://img.shields.io/badge/Gemini_3.5_Flash-Google_AI-4285F4?logo=google&logoColor=white)](https://ai.google.dev)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
+**Live API Endpoint:** [https://finaudit-server.onrender.com](https://finaudit-server.onrender.com)  
+**Interactive Docs (Swagger UI):** [https://finaudit-server.onrender.com/docs](https://finaudit-server.onrender.com/docs)
+
 ---
 
 ## Overview
