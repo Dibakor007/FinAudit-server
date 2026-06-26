@@ -1,0 +1,11 @@
+{
+  "name": "finaudit-server",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "py -3.11 -m pip install -r requirements.txt && py -3.11 -m uvicorn app.main:app --host 0.0.0.0 --port 3000 --reload",
+    "build": "py -3.11 -m pip install -r requirements.txt",
+    "start": "py -3.11 -m uvicorn app.main:app --host 0.0.0.0 --port 3000",
+    "clean": "rm -rf __pycache__ venv"
+  }
+}

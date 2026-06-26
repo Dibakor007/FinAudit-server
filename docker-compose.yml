@@ -1,0 +1,14 @@
+version: "3.8"
+
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
+      - MODEL_NAME=gemini-3.5-flash
+      - PORT=3000
+    restart: always
