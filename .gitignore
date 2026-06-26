@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+*.egg-info/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Build artifacts
+build/
+dist/
+node_modules/
